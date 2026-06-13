@@ -11,7 +11,7 @@ import NewsGrid from "@/components/NewsGrid";
 import ClosingCTA from "@/components/ClosingCTA";
 import Footer from "@/components/Footer";
 
-export default function Home() {
+export default function App() {
   return (
     <>
       <Banner />
