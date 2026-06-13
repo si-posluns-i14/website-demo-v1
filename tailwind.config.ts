@@ -8,7 +8,7 @@ const config: Config = {
         // Semantic tokens — mapped to the i14 brand palette.
         bg: "#ffffff", // white background (v1 stays white)
         ink: "#0F1A26", // Navy Black — primary text
-        accent: "#FF9C43", // Bright Orange — single warm accent
+        accent: "#78A6BA", // Steel Blue — interactive accent (no orange, per brand direction)
         line: "#DCE7ED", // soft Cloud-tint borders
         // i14 brand palette (Brand Guidelines 2025, v1.0) — see i14-Colour-Quick-Guide.txt
         navy: "#0F1A26", // Navy Black
