@@ -11,10 +11,11 @@ export const site = {
   companyName: "i14",
   // Sticky-nav tabs (anchor to the on-page section ids in App.tsx)
   nav: [
-    { label: "Why i14", href: "#section-1" },
-    { label: "The problem", href: "#section-2" },
     { label: "Platform", href: "#section-3" },
     { label: "How we work", href: "#section-4" },
+    { label: "Team", href: "#team" },
+    { label: "Careers", href: "#careers" },
+    { label: "Journal Club", href: "#journal-club" },
   ],
   primaryCta: { label: "Get in touch", href: "mailto:operations@i14.ai" },
 };
@@ -168,6 +169,124 @@ export const news = {
 export const closingCta = {
   title: "If you have a workload transformers can't serve, we should talk.",
   cta: { label: "Get in touch", href: "mailto:operations@i14.ai" },
+};
+
+export const team = {
+  eyebrow: "TEAM",
+  title: "The minds behind i14.",
+  subtitle:
+    "A team committed to building the next generation of foundation models.",
+  members: [
+    {
+      id: "simon-dennis",
+      name: "Professor Simon Dennis",
+      role: "Chief Scientific Officer",
+      bio: "Simon leads our scientific direction with decades of expertise in cognitive science and AI. He previously served as Director of the Complex Human Data Hub at the University of Melbourne and the Cognitive Science Center at Ohio State University.",
+    },
+    {
+      id: "tom-mcleod",
+      name: "Tom McLeod",
+      role: "Chief Executive Officer",
+      bio: "Tom is a seasoned entrepreneur and investor, having founded and led multiple successful startups — most notably as Founder and CEO of Myagi, a global retail enablement platform.",
+    },
+    {
+      id: "massimo-bardetti",
+      name: "Massimo Bardetti",
+      role: "Chief Technology Officer",
+      bio: "Massimo is a technology leader with a proven track record guiding innovative projects from concept to deployment at companies including AWS and Microsoft.",
+    },
+    {
+      id: "kevin-shabahang",
+      name: "Dr Kevin Shabahang",
+      role: "VP of AI Research",
+      bio: "Kevin earned his PhD under Professor Dennis at the University of Melbourne, where he pioneered efficient architectures for language models. He later co-founded TimeCredit AI in Boston.",
+    },
+    {
+      id: "michael-diamond",
+      name: "Michael Diamond",
+      role: "VP Product & Partnerships",
+      bio: "Michael brings a cross-disciplinary background to i14, from B2B and medical sales to Professor Dennis's lab and roles at two data & AI startups. He now leads product and partnerships at i14.",
+    },
+  ],
+};
+
+export const careers = {
+  eyebrow: "CAREERS",
+  title: "Build the next architecture with us.",
+  intro:
+    "We're building a small, world-class team. If you've done meaningful work in ML systems, foundation-model training, or AI research — and you're ready to push the boundaries of generative AI — we want to hear from you.",
+  roles: [
+    {
+      title: "Machine Learning / AI Research Engineer",
+      subtitle: "Next-Generation LLMs",
+      location: "Melbourne, Australia / Remote",
+      type: "Full-time",
+      blurb:
+        "Help develop and evaluate a new class of LLM architectures designed to be smarter, faster and greener than transformers — working at the cutting edge of model efficiency, scalability and performance.",
+      applyHref:
+        "mailto:operations@i14.ai?subject=Application%3A%20ML%20%2F%20AI%20Research%20Engineer",
+    },
+  ],
+  applyNote:
+    "Send your resume, GitHub (optional), and any relevant research or publications to operations@i14.ai.",
+};
+
+export const journalClub = {
+  eyebrow: "JOURNAL CLUB",
+  title: "Journal Club",
+  intro:
+    "We come together regularly to discuss and dissect the latest research in generative AI and related fields.",
+  joinCta: {
+    label: "Apply to join",
+    href: "mailto:operations@i14.ai?subject=Journal%20Club%20Application",
+  },
+  readingsHeading: "Initial readings",
+  readings: [
+    {
+      authors: "Qin, Z., Shen, X., & Zhong, Y. (2025).",
+      title: "Elucidating the Design Space of Decay in Linear Attention.",
+      source: "arXiv:2509.05282",
+      href: "https://arxiv.org/pdf/2509.05282",
+    },
+    {
+      authors: "Yang, G., Simon, J. B., & Bernstein, J. (2023).",
+      title: "A Spectral Condition for Feature Learning.",
+      source: "arXiv:2310.17813",
+      href: "https://arxiv.org/pdf/2310.17813",
+    },
+    {
+      authors: "Zhao, J. (2026).",
+      title:
+        "Towards a Principled Muon under μP: Ensuring Spectral Conditions throughout Training.",
+      source: "arXiv:2601.01306",
+      href: "https://arxiv.org/pdf/2601.01306",
+    },
+    {
+      authors: "Qin, Z., Sun, W., Li, D., Shen, X., Sun, W., & Zhong, Y. (2024).",
+      title:
+        "Lightning Attention-2: A Free Lunch for Handling Unlimited Sequence Lengths in Large Language Models.",
+      source: "arXiv:2401.04658",
+      href: "https://arxiv.org/pdf/2401.04658",
+    },
+    {
+      authors: "Li, T., Chen, M., Guo, B., & Shen, Z. (2025).",
+      title: "A Survey on Diffusion Language Models.",
+      source: "arXiv:2508.10875",
+      href: "https://arxiv.org/pdf/2508.10875",
+    },
+    {
+      authors: "Nie, S., Zhu, F., You, Z., Zhang, X., Ou, J., Hu, J., … & Li, C. (2025).",
+      title: "Large Language Diffusion Models.",
+      source: "arXiv:2502.09992",
+      href: "https://arxiv.org/pdf/2502.09992",
+    },
+    {
+      authors: "Gou, J., Yu, B., Maybank, S. J., & Tao, D. (2021).",
+      title: "Knowledge Distillation: A Survey.",
+      source: "arXiv:2006.05525",
+      href: "https://arxiv.org/pdf/2006.05525",
+    },
+  ],
 };
 
 export const footer = {
