@@ -27,3 +27,20 @@ body {
   text-transform: uppercase;
   color: theme(colors.accent);
 }
+
+/* Accordion (<details>) — hide native marker, swap +/− on open */
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+.acc-open {
+  display: none;
+}
+details[open] > summary .acc-open {
+  display: inline;
+}
+details[open] > summary .acc-closed {
+  display: none;
+}

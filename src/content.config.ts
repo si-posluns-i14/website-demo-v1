@@ -27,10 +27,10 @@ export const banner = {
 };
 
 export const hero = {
-  eyebrow: "RETHINKING AI WITH COGNITION AS OUR BLUEPRINT",
-  title: "The AI architecture for everywhere transformers can't go.",
+  eyebrow: "CONTINUAL-LEARNING INFRASTRUCTURE FOR THE ENTERPRISE",
+  title: "AI that's always thinking, always learning",
   subtitle:
-    "i14 partners with leading companies to build domain-specific foundation models they own — models that learn continuously, remember everything, and run anywhere.",
+    "i14 partners with the world's most demanding companies to solve the problems generic, static AI can't — our engineers build you a domain-specific model that keeps learning in deployment and runs anywhere.",
   cta: { label: "Get in touch", href: "mailto:operations@i14.ai" },
 };
 
@@ -107,8 +107,8 @@ export const howWeWork = {
     },
     {
       n: "03",
-      title: "Deploy",
-      body: "Take the model in-house, let i14 host it, or serve it through a compute partner — whatever fits.",
+      title: "Deliver",
+      body: "Take the trained model in-house, let i14 host it on managed compute, or serve it through a neo-cloud partner — your model, never a generic API.",
     },
     {
       n: "04",
@@ -171,6 +171,35 @@ export const closingCta = {
   cta: { label: "Get in touch", href: "mailto:operations@i14.ai" },
 };
 
+export const partners = {
+  eyebrow: "WHO WE PARTNER WITH",
+  title: "Built for the companies pushing AI past its limits.",
+  subtitle:
+    "We partner where generic, static models fall short — and meet you on whatever stack and silicon you already run.",
+  items: [
+    {
+      title: "Hardware & silicon",
+      body: "An architecture that runs natively across NVIDIA, AMD, Qualcomm and Apple — differentiated software that makes your chips the obvious choice.",
+    },
+    {
+      title: "Agentic platforms",
+      body: "Give your agents O(1) inference and reliability that compounds the longer they run — instead of cost that explodes with every token.",
+    },
+    {
+      title: "Cloud & compute",
+      body: "Offer your customers custom fine-tuned models and turn more workloads into managed inference — we route, you serve.",
+    },
+    {
+      title: "Edge & on-device",
+      body: "Real-time intelligence in a constant memory footprint, learning in situ with no cloud round-trips.",
+    },
+    {
+      title: "Consultancies & integrators",
+      body: "Bring a differentiated, data-sovereign model to regulated clients — i14 as the engine behind the solutions you deliver.",
+    },
+  ],
+};
+
 export const team = {
   eyebrow: "TEAM",
   title: "The minds behind i14.",
@@ -221,8 +250,97 @@ export const careers = {
       subtitle: "Next-Generation LLMs",
       location: "Melbourne, Australia / Remote",
       type: "Full-time",
-      blurb:
-        "Help develop and evaluate a new class of LLM architectures designed to be smarter, faster and greener than transformers — working at the cutting edge of model efficiency, scalability and performance.",
+      about: [
+        "We are i14 — a generative AI startup developing a new class of large language model (LLM) architectures designed to be smarter, faster and greener than existing transformer-based models. We are focused on pushing the boundaries of training efficiency, model scalability, and computational performance.",
+        "We are hiring two Machine Learning Research Engineers to help us develop and evaluate next-generation generative AI models. This is an opportunity to work at the cutting edge of AI architecture research while contributing to the development of more performant, efficient and sustainable AI.",
+        "We are led by Professor Simon Dennis, a cognitive scientist and computer scientist with over 35 years of experience in building large language models. He previously served as Director of the Complex Human Data Hub at the University of Melbourne and the Cognitive Science Centre at Ohio State University. His latest work has led to the development of a novel alternative to the transformer architecture — a breakthrough that attracted significant venture capital investment and enabled our spin-out from the University of Melbourne.",
+      ],
+      sections: [
+        {
+          title: "Key Responsibilities",
+          groups: [
+            {
+              heading: "Model Development & Training",
+              items: [
+                "Develop and evaluate large-scale language models using efficient training pipelines",
+                "Benchmark novel architectures against state-of-the-art models to assess performance improvements",
+                "Optimize hyperparameters and training methodologies to maximize efficiency and accuracy",
+                "Develop and implement scalable training strategies that improve computational efficiency",
+              ],
+            },
+            {
+              heading: "Experiments & Analysis",
+              items: [
+                "Design rigorous experimentation frameworks for training, evaluation, and benchmarking",
+                "Analyze scaling behavior, loss optimization, and convergence properties",
+                "Integrate research findings into production-ready implementations",
+              ],
+            },
+          ],
+        },
+        {
+          title: "Required Skills & Qualifications",
+          groups: [
+            {
+              heading: "Education & Experience",
+              items: [
+                "PhD or MSc in Machine Learning, Computer Science, Mathematics, Computational Linguistics, or a related field",
+                "Alternatively, 1+ years of experience in LLM training, model architecture design, or ML research",
+              ],
+            },
+            {
+              heading: "Technical Expertise",
+              items: [
+                "Strong proficiency in Python and deep learning frameworks like PyTorch, Huggingface transformers, Deepspeed, Accelerate",
+                "Experience in post-training LLMs",
+                "Deep understanding of model scaling, loss optimization, and computational efficiency",
+              ],
+            },
+            {
+              heading: "Computational & Optimization",
+              items: [
+                "Expertise in training stability, hyperparameter tuning, and loss function optimization",
+                "Familiarity with HPC environments, cloud training on AWS (including containerization)",
+              ],
+            },
+            {
+              heading: "Research & Problem Solving",
+              items: [
+                "Ability to iterate quickly and experiment rigorously to refine training methodologies",
+                "Enthusiasm for rethinking and improving the fundamental design of LLMs",
+              ],
+            },
+          ],
+        },
+        {
+          title: "Bonus Experience",
+          groups: [
+            {
+              heading: "",
+              items: [
+                "Strong publication record in ML, NLP, or AI efficiency research",
+                "Familiarity with distributed training (pipeline or model parallelism)",
+                "Experience with synthetic data generation for LLM pretraining",
+                "Past work on efficient inference techniques (MoE, quantization, sparsity)",
+                "Experience collaborating with early-stage startups or research-focused AI labs",
+              ],
+            },
+          ],
+        },
+        {
+          title: "What We Offer",
+          groups: [
+            {
+              heading: "",
+              items: [
+                "Opportunity to work on the future of LLMs — be at the forefront of AI innovation",
+                "A fast-moving, research-driven environment with high-impact work",
+                "Based in Melbourne, Australia but open to remote work globally",
+              ],
+            },
+          ],
+        },
+      ],
       applyHref:
         "mailto:operations@i14.ai?subject=Application%3A%20ML%20%2F%20AI%20Research%20Engineer",
     },
@@ -236,9 +354,10 @@ export const journalClub = {
   title: "Journal Club",
   intro:
     "We come together regularly to discuss and dissect the latest research in generative AI and related fields.",
-  joinCta: {
-    label: "Apply to join",
-    href: "mailto:operations@i14.ai?subject=Journal%20Club%20Application",
+  form: {
+    heading: "Apply to Join",
+    submitLabel: "Submit Application",
+    mailto: "operations@i14.ai",
   },
   readingsHeading: "Initial readings",
   readings: [

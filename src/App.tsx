@@ -5,6 +5,7 @@ import SocialProof from "@/components/SocialProof";
 import ProblemSolution from "@/components/ProblemSolution";
 import Platform from "@/components/Platform";
 import FeatureDeepDive from "@/components/FeatureDeepDive";
+import Partners from "@/components/Partners";
 import HowWeWork from "@/components/HowWeWork";
 import Security from "@/components/Security";
 import Team from "@/components/Team";
@@ -30,6 +31,9 @@ export default function App() {
         <section id="section-3">
           <Platform />
           <FeatureDeepDive />
+        </section>
+        <section id="partners">
+          <Partners />
         </section>
         <section id="section-4">
           <HowWeWork />
