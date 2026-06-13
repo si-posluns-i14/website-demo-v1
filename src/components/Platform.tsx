@@ -11,11 +11,11 @@ export default function Platform() {
         {platform.subtitle}
       </p>
       {/* Architecture diagram placeholder — module grid */}
-      <div className="mt-12 grid gap-4 rounded-xl border border-line bg-white p-6 sm:grid-cols-2 md:grid-cols-3">
+      <div className="mt-12 grid gap-4 rounded-xl border border-line bg-cloud/20 p-6 sm:grid-cols-2 md:grid-cols-3">
         {platform.modules.map((m) => (
           <div
             key={m}
-            className="flex h-24 items-center justify-center rounded-lg border border-line font-mono text-sm text-ink/60"
+            className="flex h-24 items-center justify-center rounded-lg border border-steel/30 bg-white font-mono text-sm text-steel transition-colors hover:border-steel"
           >
             {m}
           </div>

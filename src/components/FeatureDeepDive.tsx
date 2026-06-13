@@ -11,7 +11,7 @@ export default function FeatureDeepDive() {
           </h2>
           <p className="mt-4 text-ink/60">{featureDeepDive.body}</p>
         </div>
-        <div className="flex h-64 items-center justify-center rounded-xl border border-line bg-white font-mono text-sm text-ink/30">
+        <div className="flex h-64 items-center justify-center rounded-xl border border-line bg-cloud/30 font-mono text-sm text-steel">
           [ Feature graphic ]
         </div>
       </div>

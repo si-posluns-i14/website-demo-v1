@@ -10,12 +10,12 @@ export default function Hero() {
       <p className="mt-6 max-w-xl text-lg text-ink/60">{hero.subtitle}</p>
       <a
         href={hero.cta.href}
-        className="mt-10 rounded-md bg-ink px-6 py-3 text-sm font-medium text-white transition-opacity hover:opacity-90"
+        className="mt-10 rounded-md bg-accent px-6 py-3 text-sm font-medium text-ink transition-opacity hover:opacity-90"
       >
         {hero.cta.label}
       </a>
       {/* Visual motif placeholder */}
-      <div className="mt-16 flex h-64 w-full items-center justify-center rounded-xl border border-line bg-white font-mono text-sm text-ink/30">
+      <div className="mt-16 flex h-64 w-full items-center justify-center rounded-xl border border-line bg-cloud/30 font-mono text-sm text-steel">
         [ Hero visual / diagram ]
       </div>
     </header>

@@ -1,0 +1,10 @@
+Brand Guidelines — 2025, Version 1.0
+Colour Palette
+
+Navy Black     RGB 15 / 26 / 38       HEX #0F1A26    CMYK 86 / 74 / 57 / 72
+Silicon Grey   RGB 133 / 133 / 133    HEX #858585    CMYK 50 / 42 / 42 / 0
+Platinum       RGB 245 / 247 / 247    HEX #F5F7F7    CMYK 3 / 1 / 1 / 0
+Cloud          RGB 202 / 222 / 232    HEX #C9DEE8    CMYK 20 / 5 / 5 / 0
+Steel Blue     RGB 120 / 166 / 186    HEX #78A6BA    CMYK 55 / 24 / 20 / 0
+Deep Teal      RGB 38 / 74 / 84       HEX #264A54    CMYK 86 / 58 / 51 / 35
+Bright Orange  RGB 255 / 156 / 67     HEX #FF9C43    CMYK 0 / 46 / 81 / 0

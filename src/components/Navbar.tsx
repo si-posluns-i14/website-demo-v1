@@ -20,7 +20,7 @@ export default function Navbar() {
         </div>
         <a
           href={site.primaryCta.href}
-          className="rounded-md bg-ink px-4 py-2 text-sm font-medium text-white transition-opacity hover:opacity-90"
+          className="rounded-md bg-accent px-4 py-2 text-sm font-medium text-ink transition-opacity hover:opacity-90"
         >
           {site.primaryCta.label}
         </a>

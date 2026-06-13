@@ -3,3 +3,7 @@ dist
 .env*
 .DS_Store
 *.tsbuildinfo
+
+# Full-resolution headshot masters (31MB) — kept locally, not shipped.
+# The web-optimized 600x600 versions live in src/assets/team/ and ARE committed.
+founders-images/

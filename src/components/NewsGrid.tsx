@@ -19,11 +19,11 @@ export default function NewsGrid() {
           <a
             key={i}
             href={p.href}
-            className="group rounded-xl border border-line bg-white p-6 transition-colors hover:border-ink/30"
+            className="group rounded-xl border border-line bg-white p-6 transition-colors hover:border-steel"
           >
             <div className="flex items-center gap-3 font-mono text-xs text-ink/40">
               <span>{p.date}</span>
-              <span className="rounded bg-bg px-2 py-0.5 text-accent">
+              <span className="rounded bg-cloud px-2 py-0.5 text-teal">
                 {p.category}
               </span>
             </div>

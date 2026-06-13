@@ -8,7 +8,7 @@ export default function ClosingCTA() {
       </h2>
       <a
         href={closingCta.cta.href}
-        className="mt-8 inline-block rounded-md bg-ink px-6 py-3 text-sm font-medium text-white transition-opacity hover:opacity-90"
+        className="mt-8 inline-block rounded-md bg-accent px-6 py-3 text-sm font-medium text-ink transition-opacity hover:opacity-90"
       >
         {closingCta.cta.label}
       </a>
